@@ -85,4 +85,49 @@ public class Pessoa {
 ```
 Foi adicionado o ```private``` nos atributos, logo, não poderão ser acessados fora da classe.
 
-## Polimorfismo
+## Polimorfismo:
+
+Um exemplo de polimorfismo é a possibilidade de sub-classes que extendem uma classe pai poderem reutilizar atributos que estão na classe pai, reescrevendo de maneira que sirva para essa sub-classe.
+
+Exemplo:
+```
+public class Pessoa {
+  int remuneracao;
+
+  public void recebe(){
+    System.out.println("Você recebe: " + remuneracao);
+  }
+}
+
+public class Entregador extends Pessoa {
+  @Override
+  int remuneracao;
+
+  public void recebe(){
+    System.out.println("Você recebe: " + remuneracao);
+  }
+}
+
+public class Garcom {
+  int remuneracao;
+
+  public void recebe(){
+    System.out.println("Você recebe: " + remuneracao);
+  }
+}
+```
+
+```
+Pessoa pessoa = new Pessoa();
+pessoa.remuneracao = 0;
+pessoa.recebe();
+
+Entregador entregador = new Entregador();
+entregador.remuneracao = 3000;
+entregador.recebe(); 
+    
+Pessoa garcom = new Garcom();
+garcom.remuneracao = 2500;
+garcom.recebe();
+```
+
