@@ -10,4 +10,4 @@
 
    - JDK 1.0 (A primeira versão lançada, não usada atualmente, mas vale mencionar);
    - Java SE 7 (Primeira versão do Java lançada sob administração da Oracle, trazendo melhorias na APi de leitura e saída de arquivos);
-   - Java SE 8 (Sendo a primeira versão denominada como Long-Time-Suported
+   - Java SE 8 (Sendo a primeira versão denominada como Long-Term-Supported, são versões mais **estáveis** e que recebem suporte a longo prazo, além de ser uma das versões mais usadas hoje);
