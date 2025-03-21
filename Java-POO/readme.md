@@ -96,12 +96,13 @@ public class Pessoa {
   int remuneracao;
 
   public void recebe(){
-    System.out.println("Seu cargo é:" + ocupacao + "Você recebe: " + remuneracao);
+    System.out.println("Seu cargo é: " + ocupacao + "Você recebe: " + remuneracao);
   }
 }
 
 public class Entregador extends Pessoa {
   @Override
+  String ocupacao
   int remuneracao;
 
   public void recebe(){
@@ -110,6 +111,7 @@ public class Entregador extends Pessoa {
 }
 
 public class Garcom {
+  String ocupacao
   int remuneracao;
 
   public void recebe(){
@@ -120,21 +122,18 @@ public class Garcom {
 
 ```
 Pessoa pessoa = new Pessoa();
+pessoa.ocupacao = "Nenhum";
 pessoa.remuneracao = 0;
 pessoa.recebe();
 
 Entregador entregador = new Entregador();
+entregador.ocupacao = "Entregador";
 entregador.remuneracao = 3000;
 entregador.recebe(); 
     
 Pessoa garcom = new Garcom();
+garcom.ocupacao = "Garçom";
 garcom.remuneracao = 2500;
 garcom.recebe();
 ```
 
-<code>
-    public class Pessoa { 
-        String <span style="color:blue;">ocupacao</span>; 
-        int <span style="color:red;">remuneracao</span>;
-    }
-</code>
