@@ -18,4 +18,8 @@
 
   ## [IntelliJ](https://www.jetbrains.com/pt-br/idea/): 
   
-  IDE desenvolvida pela JetBrains, conhecida também pela IDE PyCharm, atualmente traz suporte com IA, além de uma interface bem desenvolvida e de fácil uso.
+  IDE desenvolvida pela JetBrains, conhecida também pela IDE PyCharm, atualmente traz suporte com IA, além de uma interface bem desenvolvida e de fácil uso;
+
+  ## [Eclipse IDE](https://i.imgur.com/e2BZTSe.png): 
+  
+  IDE desenvolvida pela IBM em 2001, não traz um design inovador, mas traz suporte para outras linguagens de programação além do Java;
