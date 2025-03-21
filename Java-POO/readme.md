@@ -65,3 +65,24 @@ public class Main {
     }
 }
 ```
+
+## Encapsulamento:
+
+A função do encapsulamento é você esconder o processo de como funciona tal função.
+
+Exemplo:
+
+```
+public class Pessoa {
+  private String nome; 
+  private String cidade;
+  private int idade;
+
+  public void apresentacao(){
+    System.out.println("Boa noite pessoal, me chamo" + nome + "tenho" + idade + "anos e moro em" + cidade);
+  }
+}
+```
+Foi adicionado o ```private``` nos atributos, logo, não poderão ser acessados fora da classe.
+
+## Polimorfismo
