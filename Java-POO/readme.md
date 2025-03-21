@@ -24,10 +24,10 @@
 
   ## [Eclipse IDE](https://i.imgur.com/e2BZTSe.png): 
   
-  IDE desenvolvida pela IBM em 2001, não traz um design inovador, mas traz suporte para outras linguagens de programação além do Java;
+  IDE desenvolvida pela IBM em 2001 é um projeto Open-Source, não traz um design inovador, mas traz suporte para outras linguagens de programação além do Java;
 
   ## [NetBeans](https://i.imgur.com/38YU5CP.png):
 
   Desenvolvida por 2 pessoas em 1996, ainda quando o Java não era popular, foi comprada pela **Sun Microsystem** em 1999 e 1 ano depois a Sun Microsystem tornou o projeto Open-Source.
 
-  O seu diferencial também é o suporte para outras linguagens de programação como PHP e C++ e de marcação HTML e XML
+  O seu diferencial também é o suporte para outras linguagens de programação como PHP e C++ e de marcação HTML e XML;
