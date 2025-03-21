@@ -1,0 +1,104 @@
+### Programação Orientada a Objetos:
+
+## Classes e Objetos:
+
+Classe é o modelo para a definição futura de objetos, contendo atributos e metodos:
+
+Exemplo: 
+```
+public class Pessoa {
+  String nome;
+  String cidade;
+  int idade;
+
+  public void apresentacao(){
+    System.out.println("Boa noite pessoal, me chamo" + nome + "tenho" + idade + "anos e moro em" + cidade);
+  }
+}
+```
+
+O objeto é criado apartir da definição da classe, ela é uma instância de uma classe:
+
+Exemplo:
+```
+public class Main {
+    public static void main(String[] args) {
+        Pessoa pessoa = new Pessoa();
+        pessoa.nome = "João Vitor";
+        pessoa.idade = 20;
+        pessoa.cidade = "Porto Alegre";
+        pessoa.apresentacao();
+    }
+}
+```
+
+## Encapsulamento:
+
+A função do encapsulamento é você esconder o processo de como funciona tal função.
+
+Exemplo:
+
+```
+public class Pessoa {
+  private String nome; 
+  private String cidade;
+  private int idade;
+
+  public void apresentacao(){
+    System.out.println("Boa noite pessoal, me chamo" + nome + "tenho" + idade + "anos e moro em" + cidade);
+  }
+}
+```
+Foi adicionado o ```private``` nos atributos, logo, não poderão ser acessados fora da classe.
+
+## Polimorfismo e Herança:
+
+Um exemplo de polimorfismo é a possibilidade de sub-classes que extendem uma classe pai poderem reutilizar atributos que estão na classe pai, reescrevendo de maneira que sirva para essa sub-classe.
+
+Exemplo:
+```
+public class Pessoa {
+  String ocupacao
+  int remuneracao;
+
+  public void recebe(){
+    System.out.println("Seu cargo é: " + ocupacao + "Você recebe: " + remuneracao);
+  }
+}
+
+public class Entregador extends Pessoa {
+  @Override
+  String ocupacao
+  int remuneracao;
+
+  public void recebe(){
+    System.out.println("Você recebe: " + remuneracao);
+  }
+}
+
+public class Garcom {
+  String ocupacao
+  int remuneracao;
+
+  public void recebe(){
+    System.out.println("Você recebe: " + remuneracao);
+  }
+}
+```
+
+```
+Pessoa pessoa = new Pessoa();
+pessoa.ocupacao = "Nenhum";
+pessoa.remuneracao = 0;
+pessoa.recebe();
+
+Entregador entregador = new Entregador();
+entregador.ocupacao = "Entregador";
+entregador.remuneracao = 3000;
+entregador.recebe(); 
+    
+Pessoa garcom = new Garcom();
+garcom.ocupacao = "Garçom";
+garcom.remuneracao = 2500;
+garcom.recebe();
+```
