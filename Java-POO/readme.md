@@ -19,6 +19,7 @@
   ## [IntelliJ](https://www.jetbrains.com/pt-br/idea/): 
   
   IDE desenvolvida pela JetBrains, conhecida também pela IDE PyCharm, atualmente traz suporte com IA, além de uma interface bem desenvolvida e de fácil uso;
+  
   *(Essa seria a minha escolha de IDE, visto que já fomos introduzidos ao PyCharm, já é familiar [: )*
 
   ## [Eclipse IDE](https://i.imgur.com/e2BZTSe.png): 
