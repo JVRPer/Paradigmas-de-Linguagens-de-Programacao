@@ -31,3 +31,37 @@
   Desenvolvida por 2 pessoas em 1996, ainda quando o Java não era popular, foi comprada pela **Sun Microsystem** em 1999 e 1 ano depois a Sun Microsystem tornou o projeto Open-Source.
 
   O seu diferencial também é o suporte para outras linguagens de programação como PHP e C++ e de marcação HTML e XML;
+
+### Programação Orientada a Objetos:
+
+## Classes e Objetos:
+
+Classe é o modelo para a definição futura de objetos, contendo atributos e metodos:
+
+Exemplo: 
+
+public class Pessoa {
+  String nome;
+  String cidade;
+  int idade;
+
+  public void apresentacao(){
+    System.out.println("Boa noite pessoal, me chamo" + nome + "tenho" + idade + "anos e moro em" + cidade);
+  }
+
+}
+
+O objeto é criado apartir da definição da classe, ela é uma instância de uma classe:
+
+Exemplo:
+```
+public class Main {
+    public static void main(String[] args) {
+        Pessoa pessoa = new Pessoa();
+        pessoa.nome = "João Vitor";
+        pessoa.idade = 20;
+        pessoa.cidade = "Porto Alegre";
+        pessoa.apresentacao();
+    }
+}
+```
