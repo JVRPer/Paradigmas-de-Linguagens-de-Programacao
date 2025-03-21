@@ -1,4 +1,6 @@
-# Histórico e sua evolução:
+# Trajetória do Java e sua importância para a programação
+  
+  ## História e sua evolução com o passar dos anos:
 
   A linguagem Java (nome atual) foi desenvolvida apartir de 1991 sob o comando de três desenvolvedores: **James Gosling, Patick Naughton e Mike Sheridan**, teve sua primeira versão lançada em 1996 e foi criada com o objetivo de permitir com que **dispositivos diferentes se comuniquem** entre si.
 
