@@ -39,7 +39,7 @@
 Classe é o modelo para a definição futura de objetos, contendo atributos e metodos:
 
 Exemplo: 
-
+```
 public class Pessoa {
   String nome;
   String cidade;
@@ -48,8 +48,8 @@ public class Pessoa {
   public void apresentacao(){
     System.out.println("Boa noite pessoal, me chamo" + nome + "tenho" + idade + "anos e moro em" + cidade);
   }
-
 }
+```
 
 O objeto é criado apartir da definição da classe, ela é uma instância de uma classe:
 
