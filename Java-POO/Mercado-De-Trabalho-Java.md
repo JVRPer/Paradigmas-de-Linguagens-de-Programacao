@@ -6,4 +6,4 @@ Foi feito uma pesquisa nos sites [Glassdor](https://www.glassdoor.com.br/Sal%C3%
   - **Desenvolvedor Java Pleno**: R$ 4.000 até R$ 8.000;
   - **Desenvolvedor Java Sênior**: R$ 4.000 até R$ 12.000;
 
-    <span style="font-size: 20px;">Este texto é maior</span>
+    <span style="font-size: 10px;">Este texto é maior</span>
