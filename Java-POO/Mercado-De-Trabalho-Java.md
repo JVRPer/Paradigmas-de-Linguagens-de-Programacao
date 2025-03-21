@@ -6,4 +6,14 @@ Foi feito uma pesquisa nos sites [Glassdor](https://www.glassdoor.com.br/Sal%C3%
   - **Desenvolvedor Java Pleno**: R$ 4.000 até R$ 8.000;
   - **Desenvolvedor Java Sênior**: R$ 4.000 até R$ 12.000;
 
-    <span style="font-size: 10px;">Este texto é maior</span>
+  *Esses valores também podem mudar, depende da experiência do desenvolvedor em outros requisitos necessitados do cargo.*
+  
+# Necessidade do Java nas áreas da programação:
+
+O Java não é exclusivamente usado para o back-end, ele também pode ser usado em outras áreas:
+
+  - Usado em Desenvolvimento Web com o uso do Framework **Spring**;
+  - Usado na área de Desenvolvimento de Aplicativos Android;
+  - Usado para Desenvolvimento de API's com o Spring Boot;
+  - Usado na área de Big Data com o software **Apache Hadoop**;
+  - Usado em Desenvolvimento de Jogos com o **libGDX**, que permite criação de jogos 2D e 3D;
