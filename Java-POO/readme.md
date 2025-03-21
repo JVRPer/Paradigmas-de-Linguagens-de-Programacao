@@ -16,4 +16,4 @@
 
 ### Ambientes de Desenvolvimento:
 
-  ## IntelliJ: IDE desenvolvida pela JetBrains, conhecida também pela IDE PyCharm, atualmente traz suporte com IA, além de uma interface bem desenvolvida e de fácil uso.
+  <h2 style="display: inline;">IntelliJ:</h2> IDE desenvolvida pela JetBrains, conhecida também pela IDE PyCharm, atualmente traz suporte com IA, além de uma interface bem desenvolvida e de fácil uso.
